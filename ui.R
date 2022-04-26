@@ -1,7 +1,7 @@
 ###################   PARA POLLO CAMILOq  ######
 ###getwd()
-##install.packages("shinythemes")
-setwd("F:/GitHub/Yeison_C")
+###install.packages("shinythemes")
+setwd("G:/GitHub/Yeison_C")
 DataPollo=read.csv("M5T3.csv",header=TRUE, sep=";", stringsAsFactors = F)
 DataPollo$Fecha=as.Date(DataPollo$Fecha, format="%d/%m/%Y")
 
